@@ -4,7 +4,7 @@ async function descargar() {
   mensaje.textContent = "Descargando...";
 
   try {
-    const response = await fetch("https://TUBACKEND.onrender.com/download", {
+    const response = await fetch("https://ytdwnldr.onrender.com/download", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ url })
